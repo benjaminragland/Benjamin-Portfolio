@@ -15,6 +15,7 @@
 
   --clr-light: rgb(231, 231, 236);
   --clr-grey: rgb(230, 230, 233);
+  --clr-drkgrey: rgb(63, 62, 62);
   --clr-dark: #303030;
   /* --clr-accent: #16e0bd; */
   --clr-accent: #57d430;
@@ -439,13 +440,16 @@ li::marker {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--clr-accent);
+  border-radius: 5px;
+  background: var(--clr-drkgrey);
 }
 .portfolio-item-title {
   color: var(--clr-accent);
   font-family: var(--ff-secondary);
   font-size: var(--fs-h3);
   font-weight: var(--fw-reg);
-  margin-top: 2em;
+  /* margin-top: 2em; */
   margin-bottom: 0;
 }
 
