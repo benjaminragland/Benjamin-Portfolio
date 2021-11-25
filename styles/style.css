@@ -282,6 +282,12 @@ header {
     grid-template-columns: min-content auto;
   }
 
+  @media (min-width: 850px) {
+    .intro {
+      grid-template-columns: min-content max-content;
+    }
+  }
+
   .intro-img {
     grid-area: img;
     min-width: 250px;
