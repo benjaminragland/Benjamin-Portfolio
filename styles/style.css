@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 /* Custom properties */
 
 :root {
@@ -117,6 +112,12 @@ h3 {
 /* .section-title {
   margin: 0.25em;
 } */
+
+@media (max-width: 725px) {
+  #home-intro {
+    max-width: 725px;
+  }
+}
 
 .section-title-intro {
   font-weight: var(--fw-reg);
