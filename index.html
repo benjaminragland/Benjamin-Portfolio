@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Benjamin Portfolio</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <i class="fas fa-mountain"></i>
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="" toggle navigation>
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Skills and Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item"><a href="#work" class="nav-link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section-title section-title-intro">
+        Hello World! <strong>Benjamin Ragland</strong>
+      </h1>
+      <p class="section-subtitle section-subtitle-intro">
+        Full-Stack Developer
+      </p>
+      <img
+        class="intro-img"
+        src="./img/benjamin-profile-01.jpg"
+        alt="Profile picture of developer Benjamin"
+      />
+    </section>
+
+    <!-- Skills and Experience -->
+    <section class="my-services" id="services">
+      <h2 class="section-title section-title-services">Skills and Experience</h2>
+      <div class="services">
+        <div class="service line-break">
+          <h3 class="skills-subheader">Skills</h3>
+          <p>
+            <ul>
+              
+              <li>Proficient in HTML5, CSS3, and Vanilla JavaScript</li>
+              <li>Knowledge of MongoDB, Express, React, and Node.js</li>
+              <li>Able to build and deploy full-stack applications </li>
+              
+            </ul>
+          </p>
+        </div>
+        <!-- / Service-->
+
+        <!-- <div class="service">
+          <h3>Back End Development</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+            voluptates quod ratione accusantium! Similique repellendus magni et
+            modi ipsam dicta iste ut quo quaerat quibusdam hic cum fugiat error
+            facere tenetur, nam ipsum voluptatem commodi facilis autem voluptas.
+            Quidem accusamus ut necessitatibus atque ea sunt optio id minima quo
+            iusto.
+          </p>
+        </div> -->
+        <!-- / Service-->
+
+        <div class="service">
+          <h3 class="skills-subheader">Experience</h3>
+          
+          <ul>
+            <li>Proficient in HTML5, CSS3, and Vanilla JavaScript</li>
+            
+          </ul>
+          <p></p>
+        </div>
+        
+      </div>
+      <!-- / Skills and Experience-->
+<div class="btn-div">
+      <a href="#work" class="button">Checkout My Work</a>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section-title section-title-about">Who I am</h2>
+      <p class="sectionsubtitle section-subtitle-about">
+        Full-Stack Web Developer in Burlington, VT
+      </p>
+
+      <div class="about-me-body">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus,
+          eum facilis incidunt, aperiam iusto vero animi, maiores totam nobis
+          hic officiis quisquam! Nesciunt, magnam deleniti.
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, saepe
+          explicabo adipisci iste voluptate dolore similique consectetur magnam.
+          Vel eveniet, maxime veniam provident tempora eius.
+        </p>
+      </div>
+      <img
+        src="./img/benjamin-about.jpg"
+        alt="Picture of developer Benjamin kayaking"
+        class="about-me-img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section-title section-title-work">My work</h2>
+      <p class="section-subtitle section-subtitle-work">
+        A collection of my coding projects
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfilio item 01 -->
+        <div class="portfolio-item-container">
+          <p class="portfolio-item-title">Javascript Jeopardy</p>
+          <p class="tech-icon">
+            <i class="fab fa-html5 main-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt main-css3" title="CSS3"></i>
+            <i class="fab fa-js-square main-js" title="JavaScript"></i>
+            <i class="fab fa-git-alt git-main" title="Git"></i>
+          </p>
+
+          <a href="./jeopardy-game.html" class="portfolio-item">
+            <img
+              src="./img/jeopardy-game.jpg"
+              alt="Javascript Jeopardy game screenshot"
+              class="portfolio-img"
+            />
+          </a>
+        </div>
+        <!-- Portfilio item 02 -->
+
+        <div class="portfolio-item-container">
+          <p class="portfolio-item-title">Geo Vermonter</p>
+          <p class="tech-icon">
+            <i class="fab fa-html5 main-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt main-css3" title="CSS3"></i>
+            <i class="fab fa-js-square main-js" title="JavaScript"></i>
+            <i class="fab fa-react react-main" title="React"></i>
+            <i class="fas fa-map-marked-alt map-main" title="Leaflet Maps"></i>
+            <i class="fab fa-git-alt git-main" title="Git"></i>
+          </p>
+
+          <a href="./geo-vermonter.html" class="portfolio-item">
+            <img
+              src="./img/geo-vermonter-01.jpg"
+              alt="Geo Vermonter game screenshot"
+              class="portfolio-img"
+            />
+          </a>
+        </div>
+        <!-- Portfilio item 03 -->
+
+        <div class="portfolio-item-container">
+          <p class="portfolio-item-title">Guess The Number</p>
+          <p class="tech-icon">
+            <i class="fab fa-js-square main-js" title="JavaScript"></i>
+            <i class="fab fa-git-alt git-main" title="Git"></i>
+          </p>
+
+          <a href="#" class="portfolio-item">
+            <img
+              src="./img/guess-number-01.png"
+              alt="Guess the Number game screenshot"
+              class="portfolio-img"
+            />
+          </a>
+        </div>
+        <!-- Portfilio item 04 -->
+
+        <div class="portfolio-item-container">
+          <p class="portfolio-item-title">Space Escape</p>
+          <p class="tech-icon">
+            <i class="fab fa-js-square main-js" title="JavaScript"></i>
+            <i class="fab fa-git-alt git-main" title="Git"></i>
+          </p>
+
+          <a href="#" class="portfolio-item">
+            <img
+              src="./img/space-escape-01.png"
+              alt="Space Escape game screenshot"
+              class="portfolio-img"
+            />
+          </a>
+        </div>
+        <!-- Portfilio item 05 -->
+
+        <div class="portfolio-item-container">
+          <p class="portfolio-item-title">Survey Form</p>
+          <p class="tech-icon">
+            <i class="fab fa-html5 main-html5" title="HTML5"></i>
+            <i class="fab fa-css3-alt main-css3" title="CSS3"></i>
+            <i class="fab fa-git-alt git-main" title="Git"></i>
+          </p>
+
+          <a href="#" class="portfolio-item">
+            <img
+              src="./img/survey-form-01.jpg"
+              alt="Survey form project screenshot"
+              class="portfolio-img"
+            />
+          </a>
+        </div>
+        <!-- Portfilio item 06 -->
+
+        <div class="portfolio-item-container">
+          <p class="portfolio-item-title">React Chatroom</p>
+          <p class="tech-icon">
+            <i class="fab fa-css3-alt main-css3" title="CSS#"></i>
+            <i class="fab fa-js-square main-js" title="JavaScript"></i>
+            <i class="fab fa-react react-main" title="React"></i>
+            <i class="fab fa-node-js node-main" title="NodeJS"></i>
+            <i class="fas fa-cogs api-main" title="ExpressJS"></i>
+            <i class="fab fa-git-alt git-main" title="Git"></i>
+          </p>
+
+          <a href="#" class="portfolio-item">
+            <img
+              src="./img/react-chat-01.jpg"
+              alt="React chatroom project screenshot"
+              class="portfolio-img"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:benjaminragland@gmail.com" class="footer-link"
+        >benjaminragland@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            href="https://github.com/benjaminragland"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-list-link"
+            aria-label="Benjamin's Github link"
+          >
+            <i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://linkedin.com/in/benjamin-ragland-22b693222"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-list-link"
+            aria-label="Benjamin's Linkedin profile"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- <li class="social-list-item">
+          <a href="#" class="social-list-link">
+              <i class="fab fa-codepen"></i>
+          </a>
+          
+        </li> -->
+        <!-- <li class="social-list-item">
+          <a href="#" class="social-list-link">c</a>
+        </li>
+        <li class="social-list-item">
+          <a href="#" class="social-list-link">d</a>
+        </li> -->
+      </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
