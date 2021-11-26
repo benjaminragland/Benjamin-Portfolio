@@ -457,19 +457,19 @@ li::marker {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border: 1px solid var(--clr-accent);
   border-radius: 5px;
   background: var(--clr-drkgrey);
+  max-height: 370px;
+  max-width: 300px;
 }
 .portfolio-item-title {
   color: var(--clr-accent);
   font-family: var(--ff-secondary);
   font-size: var(--fs-h3);
   font-weight: var(--fw-reg);
-  /* margin-top: 2em; */
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .tech-icon {
@@ -544,6 +544,16 @@ li::marker {
 @media (max-width: 800px) {
   .portfolio-item-title {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .portfolio-item-container {
+    max-width: 350px;
+  }
+
+  .portfolio-img {
+    min-width: 350px;
   }
 }
 
