@@ -80,7 +80,6 @@ strong {
   text-align: center;
   cursor: pointer;
   font-size: 1rem;
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
@@ -90,6 +89,7 @@ strong {
 .button:hover {
   transform: scale(1.1);
 }
+
 /* Typography */
 
 h1,
@@ -159,6 +159,7 @@ header {
   left: 1em;
   top: 1em;
   color: var(--clr-dark);
+  font-size: 1.5em;
 }
 
 .nav {
@@ -198,7 +199,7 @@ header {
 }
 
 .nav-toggle {
-  padding: 0.5em;
+  padding: 0.75em;
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -539,7 +540,7 @@ li::marker {
 @media (min-width: 1025px) {
   .portfolio {
     justify-content: center;
-    grid-template-columns: repeat(3, minmax(250px, 300px));
+    grid-template-columns: repeat(4, minmax(250px, 300px));
   }
 }
 
@@ -616,4 +617,18 @@ li::marker {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Project page styling */
+
+.project-page-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+}
+
+.project-page-image {
+  box-shadow: var(--bs);
+  max-height: 400px;
 }
